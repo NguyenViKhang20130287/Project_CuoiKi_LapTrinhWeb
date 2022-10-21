@@ -15,39 +15,57 @@ li {
 img {
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
+    object-fit: cover;
 }
 
 body {
     background: #ecf0f1;
-    position: relative;
 }
 
 .main_page {
-    width: 80%;
-    margin: 0 auto;
+    position: relative;
     font-size: 16px;
 }
 
 /* Header page */
 .header_page {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.header_page-main {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     background: #ecf0f1;
-    /* margin-bottom: 50px; */
-    /* padding: 10px; */
+    /* position: static; */
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 2px 4px 15px 0px #dadada;
+    z-index: 2;
+}
+
+.sticky .header_page-main {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
 }
 
 .header_page-logo {
-    height: 150px;
-    width: 15%;
+    height: 100px;
+    width: 10%;
     margin-right: 10px;
 }
 
 .header_page-category {
     padding: 0;
-    width: 55%;
+    width: 62%;
 }
 
 .header_page-category-main-menu {
@@ -60,11 +78,29 @@ body {
     padding: 30px;
     cursor: pointer;
     position: relative;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.header_page-category-main-menu>li:hover {
+    color: #c0392b;
+}
+
+.header_page-category-main-menu li a {
+    transition: all 0.5s
+}
+
+.header_page-category-main-menu li:hover a {
+    color: #c0392b;
 }
 
 .header_page-category-main-menu li:hover .header_page-category-sub-menu {
-    /* opacity: 1; */
     display: block;
+    color: #000;
+}
+
+.header_page-category-main-menu li:hover .header_page-category-sub-menu li {
+    font-weight: normal;
 }
 
 .header_page-category-main-menu a {
@@ -83,16 +119,25 @@ body {
     background: #fff;
     box-shadow: 0px 1px 6px 0px #dadada;
     display: none;
+    z-index: 2;
 }
 
 .header_page-category-sub-menu li {
     padding: 15px 10px;
     width: 180px;
     font-size: 14px;
+    border-bottom: 1px solid #bc8247;
+    transition: all 0.3s;
+}
+
+.header_page-category-sub-menu li:hover {
+    transform: scale(0.9);
+    font-weight: bold;
+    color: #bc8247;
 }
 
 .header_page-btns {
-    width: 30%;
+    width: 28%;
 }
 
 .header_page-btns button {
@@ -104,10 +149,6 @@ body {
     transition: all 0.4s;
     border-radius: 10px;
 }
-
-/* .header_page-btns button:hover {
-    background: rgba(0, 0, 0, 0.5)
-} */
 
 .header_page-btns button a {
     color: #000;
@@ -121,29 +162,31 @@ body {
 
 /* Search modal */
 .header_page-modal-search {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
-    /* display: none; */
-    transform: translateY(-1000px);
-    transition: 0.3s;
+    transform: translateY(-3000px);
+    transition: 0.5s;
+    z-index: 3;
 }
 
 .hide-modal-search {
     height: 100%;
 }
 
-.main-modal {
+.header_page-modal-search .main-modal {
     background: #fff;
     padding: 30px;
     text-align: center;
     line-height: 2;
+    position: fixed;
+    width: 100%;
 }
 
-.main-modal-close-btn button {
+.header_page-modal-search .main-modal-close-btn button {
     padding: 5px 15px;
     background: none;
     border: none;
@@ -152,39 +195,39 @@ body {
     cursor: pointer;
 }
 
-.main-modal-title h1 {
+.header_page-modal-search .main-modal-title h1 {
     font-weight: normal;
     font-size: 30px;
 }
 
-.main-modal-category {
+.header_page-modal-search .main-modal-category {
     width: 50%;
     margin: 0 auto;
 }
 
-.main-modal-category ul {
+.header_page-modal-search .main-modal-category ul {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     cursor: pointer;
 }
 
-.main-modal-category ul li {
+.header_page-modal-search .main-modal-category ul li {
     transition: 0.3s;
 }
 
-.main-modal-category ul li:hover {
+.header_page-modal-search .main-modal-category ul li:hover {
     color: #c0392b;
 }
 
-.main-modal-search {
+.header_page-modal-search .main-modal-search {
     width: 70%;
     margin: 0 auto;
     position: relative;
     margin-top: 20px;
 }
 
-.main-modal-search input {
+.header_page-modal-search .main-modal-search input {
     box-sizing: border-box;
     width: 100%;
     border: none;
@@ -193,7 +236,7 @@ body {
     outline: none;
 }
 
-.main-modal-search i {
+.header_page-modal-search .main-modal-search i {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -202,12 +245,13 @@ body {
 
 /* Body page */
 .body_page {
-    height: 100vh;
     background: #fff;
 }
 
 /* Footer page */
 .footer_page {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 10px;
