@@ -1,0 +1,140 @@
+.body_page {
+    width: 100%;
+}
+
+.body_page-menu {
+    padding: 15px;
+    background: #b2bec3;
+}
+
+.body_page-menu ul {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.body_page-menu ul li {
+    margin-right: 10px;
+}
+
+.body_page-menu span {
+    margin-right: 10px;
+}
+
+.body_page-menu ul li:first-child:hover a {
+    color: #bc8247;
+}
+
+.body_page-menu ul li a {
+    color: #000;
+    transition: all 0.2s;
+}
+
+.body_page-menu ul li a i {
+    margin-right: 3px;
+    font-size: 14px;
+}
+
+/*  */
+.body_page-main {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body_page-main-address,
+.body_page-main-form {
+    width: 48%;
+    line-height: 2;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.body_page-main-address {}
+
+.body_page-main-address h1,
+.body_page-main-form h1 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.body_page-main-address ul li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+
+.body_page-main-address ul li:hover span {
+    transform: scale(0.9);
+    background: #bc8247;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.body_page-main-address ul li:hover a {
+    color: #bc8247;
+}
+
+.body_page-main-address ul li span {
+    border: 1px solid #000;
+    padding: 8px 16px;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+
+.body_page-main-address ul li p a {
+    color: #000;
+    transition: all 0.3s;
+}
+
+.body_page-main-form input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.body_page-main-form input[type="submit"] {
+    background: none;
+    width: 40%;
+    font-weight: bold;
+    border: 1px solid #000;
+    transition: all 0.3s;
+}
+
+.body_page-main-form input[type="submit"]:hover {
+    background: #bc8247;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.body_page-main-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    resize: none;
+    outline: none;
+    padding: 10px;
+}
+
+/* responsive */
+@media screen and (max-width:412px) {
+
+    .body_page-main{
+        width: 100%;
+        display: inline-block;
+    }
+
+    .body_page-menu ul{
+        /* display: inline-block; */
+        width: 100%;                                                                                                                                    
+    }
+
+    .body_page-main-address,
+.body_page-main-form {
+    width: 100%;
+}
+
+}

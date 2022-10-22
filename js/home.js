@@ -23,7 +23,7 @@ window.addEventListener('load', function () {
         }
         btnsChange[parseInt(index)].style.background = '#bc8247'
         slider_main.style = `transform: translateX(${-1 * index * sliderItemWidth}px)`
-    }, 2000)
+    }, 3000)
 
     btnsChange.forEach(function (b, ib) {
         b.addEventListener('click', function () {
