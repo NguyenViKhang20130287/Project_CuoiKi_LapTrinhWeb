@@ -66,7 +66,7 @@ body {
 
 .header_page-category {
     padding: 0;
-    width: 62%;
+    width: 60%;
 }
 
 .header_page-category-main-menu {
@@ -138,7 +138,7 @@ body {
 }
 
 .header_page-btns {
-    width: 28%;
+    width: 30%;
 }
 
 .header_page-btns button {
@@ -255,11 +255,12 @@ body {
     width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 10px;
 }
 
 .footer_page h3 {
+    font-size: 18px;
     text-transform: uppercase;
 }
 
@@ -270,19 +271,25 @@ body {
 .footer_page-inforCompany,
 .footer_page-policy,
 .footer_page-members,
-.footer_page-buyOnline {
+.footer_page-buyOnline,
+.footer_page-social {
     line-height: 1.8;
+    width: 19%;
+    /* border: 1px solid #000; */
+    margin-right: 1%;
 }
 
 .footer_page-social ul {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    /* width: 19%; */
+    /* border: 1px solid #000; */
 }
 
 .footer_page-social ul li {
     margin: 0 10px;
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-radius: 4px;
 }
 
