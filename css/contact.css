@@ -122,13 +122,15 @@
 }
 
 
-<<<<<<< HEAD
-    .body_page-main {
+/* responsive */
+@media screen and (max-width:428px) {
+
+    .body_page-main{
         width: 100%;
         display: inline-block;
     }
 
-    .body_page-menu ul {
+    .body_page-menu ul{
         /* display: inline-block; */
         width: 100%;
     }
@@ -137,23 +139,4 @@
     .body_page-main-form {
         width: 100%;
     }
-=======
-    /* responsive */
-    @media screen and (max-width:428px) {
-
-        .body_page-main{
-            width: 100%;
-            display: inline-block;
-        }
-
-        .body_page-menu ul{
-            /* display: inline-block; */
-            width: 100%;
-        }
->>>>>>> 6602ad3fbf00c5b808cec0d38b33e8e9cb61f83c
-
-        .body_page-main-address,
-        .body_page-main-form {
-            width: 100%;
-        }
 }
