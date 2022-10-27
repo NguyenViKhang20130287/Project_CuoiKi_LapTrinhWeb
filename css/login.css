@@ -349,6 +349,7 @@ input[type = password], input[type = text] {
     transform: scale(.5);
     visibility: hidden;
 }
+
 /* responsive */
 @media screen and (max-width: 428px) {
 
@@ -359,7 +360,7 @@ input[type = password], input[type = text] {
         width: 95%;
     }
 
-    .body_page-main .login-container,.register-container {
+    .body_page-main .login-container, .register-container {
         padding: 50px 30px;
     }
 
@@ -379,13 +380,13 @@ input[type = password], input[type = text] {
     }
 }
 
-@media screen and (min-height: 824px) {
+@media screen and (min-height: 824px) and (max-width: 428px) {
     .sticky {
         position: relative;
     }
 }
 
-@media screen and (min-height: 670px) {
+@media screen and (min-height: 670px) and (max-width: 428px) {
     .modal-content {
         margin: 20% auto;
     }
