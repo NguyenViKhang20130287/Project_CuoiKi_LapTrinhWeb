@@ -20,6 +20,7 @@ img {
 
 body {
     background: #ecf0f1;
+    zoom: 85%;
 }
 
 .main_page {
@@ -82,7 +83,7 @@ body {
     font-weight: bold;
 }
 
-.header_page-category-main-menu>li:hover {
+.header_page-category-main-menu > li:hover {
     color: #c0392b;
 }
 
@@ -318,7 +319,7 @@ body {
 
 
 /* responsive */
-@media screen and (max-width:412px) {
+@media screen and (max-width: 428px) {
     .header_page {
         width: 100%;
     }

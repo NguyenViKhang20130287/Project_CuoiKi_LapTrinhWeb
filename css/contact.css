@@ -1,5 +1,6 @@
 .body_page {
     width: 100%;
+    overflow: auto;
 }
 
 .body_page-menu {
@@ -41,6 +42,7 @@
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
+
 }
 
 .body_page-main-address,
@@ -119,9 +121,8 @@
     padding: 10px;
 }
 
-/* responsive */
-@media screen and (max-width:412px) {
 
+<<<<<<< HEAD
     .body_page-main {
         width: 100%;
         display: inline-block;
@@ -136,5 +137,23 @@
     .body_page-main-form {
         width: 100%;
     }
+=======
+    /* responsive */
+    @media screen and (max-width:428px) {
 
+        .body_page-main{
+            width: 100%;
+            display: inline-block;
+        }
+
+        .body_page-menu ul{
+            /* display: inline-block; */
+            width: 100%;
+        }
+>>>>>>> 6602ad3fbf00c5b808cec0d38b33e8e9cb61f83c
+
+        .body_page-main-address,
+        .body_page-main-form {
+            width: 100%;
+        }
 }
