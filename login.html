@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="css/login.css">
     <title>Shop Bán Ngọc Quý</title>
+
 </head>
 
 <body>
@@ -21,7 +22,7 @@
         <div class="header_page-main">
 
             <div class="header_page-logo">
-                <a href="../LTW_ProjectCuoiKi/home.html"><img src="./img/logo.png" alt=""></a>
+                <a href="home.html"><img src="./img/logo.png" alt=""></a>
             </div>
 
             <div class="header_page-category">
@@ -56,7 +57,7 @@
                     kiếm
                 </button>
                 <button><i class="fa-solid fa-bag-shopping"></i>Giỏ hàng(100)</button>
-                <button><a href=""><i class="fa-solid fa-user"></i>Tài khoản</a></button>
+                <button><a href="login.html"><i class="fa-solid fa-user"></i>Tài khoản</a></button>
             </div>
             <!--  -->
             <div class="header_page-btns responsive">
@@ -72,7 +73,7 @@
 
                 <div class="category_header-responsive">
                     <ul class="main-menu">
-                        <li><a href="../home.html">Trang chủ</a></li>
+                        <li><a href="home.html">Trang chủ</a></li>
                         <li class="main-menu-list">
                             <div class="main-menu-title">
                                 <h1>Sản phẩm</h1>
@@ -100,7 +101,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="../contact.html">Liên hệ</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
                     </ul>
                     <button class="closeBtn"><i class="fa-solid fa-xmark"></i></button>
                     <div class="hidden-menu"></div>
@@ -150,7 +151,7 @@
                 <li><a href="">Đăng nhập</a></li>
             </ul>
         </div>
-
+        <!--        Login Form-->
         <div class="body_page-main">
             <div class="login-container">
                 <div class="text-header">
@@ -176,10 +177,36 @@
                     <div class="or">
                         <span>HOẶC</span>
                     </div>
-                    <button class="register-button">ĐĂNG KÝ</button>
+                    <button class="register-button " id="register-button-login">ĐĂNG KÝ</button>
                 </form>
             </div>
         </div>
+        <!--        Register Form-->
+        <div class="modal">
+            <div class="modal-content">
+
+                <div class="register-container">
+                    <div class="text-header">
+                        <h3>Đăng Ký</h3>
+                    </div>
+                    <form action="">
+                        <label for="uname">Tên Đăng Nhập <span>*</span></label>
+                        <input id="uname" type="text" placeholder="Nhập Tên Đăng Nhập...">
+                        <label for="email-register">Địa Chỉ Email <span>*</span></label>
+                        <input id="email-register" type="email" placeholder="Địa Chỉ Email...">
+                        <label for="pass-register">Mật Khẩu <span>*</span></label>
+                        <input id="pass-register" type="password" placeholder="Nhập Mật Khẩu...">
+
+                        <button class="register-button">ĐĂNG KÝ</button>
+                        <div class="or">
+                            <span>HOẶC</span>
+                        </div>
+                        <button class="login-button" id="login-button-register">ĐĂNG NHẬP</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
@@ -238,5 +265,5 @@
 </div>
 </body>
 <script src="js/main.js"></script>
-
+<script src="js/login.js"></script>
 </html>
