@@ -122,19 +122,19 @@
 /* responsive */
 @media screen and (max-width:412px) {
 
-    .body_page-main{
+    .body_page-main {
         width: 100%;
         display: inline-block;
     }
 
-    .body_page-menu ul{
+    .body_page-menu ul {
         /* display: inline-block; */
-        width: 100%;                                                                                                                                    
+        width: 100%;
     }
 
     .body_page-main-address,
-.body_page-main-form {
-    width: 100%;
-}
+    .body_page-main-form {
+        width: 100%;
+    }
 
 }
