@@ -279,7 +279,7 @@
 
 /*  */
 /* responsive */
-@media screen and (max-width:412px) {
+@media screen and (max-width:428px) {
     .body_page {
         width: 100%;
     }
