@@ -36,8 +36,9 @@
     font-size: 14px;
 }
 
-input {
+input, button {
     outline: 0;
+    border-radius: 5px;
 }
 
 /*login form*/
