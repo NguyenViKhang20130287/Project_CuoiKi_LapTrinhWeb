@@ -351,6 +351,23 @@ input[type = password], input[type = text] {
     visibility: hidden;
 }
 
+/* close button */
+.close {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 30px;
+}
+
+.close a {
+    text-decoration: none;
+    transition: .3s;
+}
+
+.close a:hover {
+    color: #bc8246;
+}
+
 /* responsive */
 @media screen and (max-width: 428px) {
 

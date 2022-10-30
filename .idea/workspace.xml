@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c7a04f2-5ef4-4d03-b18a-8386129fcdbf" name="Changes" comment="NguyenViKhang 20130287">
+    <list default="true" id="2c7a04f2-5ef4-4d03-b18a-8386129fcdbf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b59291b1-cb92-4be0-8ada-eeccaf3de02f" name="Changes" comment="" />
+      <changelist id="2c7a04f2-5ef4-4d03-b18a-8386129fcdbf" name="Changes" comment="" />
       <created>1665800230200</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -77,6 +79,7 @@
       <workItem from="1666934226060" duration="27681000" />
       <workItem from="1667013147185" duration="10352000" />
       <workItem from="1667096175301" duration="1267000" />
+      <workItem from="1667132694056" duration="419000" />
     </task>
     <servers />
   </component>
@@ -94,7 +97,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="backup" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
