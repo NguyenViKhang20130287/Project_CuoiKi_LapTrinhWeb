@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins, sans-serif;
 }
 
 a {
@@ -11,9 +12,11 @@ a {
 li {
     list-style: none;
 }
+
 .card-image img {
     cursor: pointer;
 }
+
 img {
     width: 100%;
     height: 100%;
@@ -413,7 +416,8 @@ body {
 
     .footer_page-social {
         text-align: center;
-        margin: auto;width: 100%;
+        margin: auto;
+        width: 100%;
     }
 
     /*  */
