@@ -35,7 +35,7 @@
     margin-right: 3px;
     font-size: 14px;
 }
-input, button {
+input, button, textarea {
     border-radius: 5px;
 }
 /*  */
@@ -99,14 +99,17 @@ input, button {
     width: 100%;
     padding: 10px;
     outline: none;
+    border: 1px solid #bc8247;
 }
 
 .body_page-main-form input[type="submit"] {
     background: none;
     width: 40%;
     font-weight: bold;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     transition: all 0.3s;
+    border: 1px solid #bc8247;
+    color: #bc8247;
 }
 
 .body_page-main-form input[type="submit"]:hover {
@@ -121,6 +124,7 @@ input, button {
     resize: none;
     outline: none;
     padding: 10px;
+    border: 1px solid #bc8247;
 }
 
 /*  */
