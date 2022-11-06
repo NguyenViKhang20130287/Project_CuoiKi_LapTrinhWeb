@@ -398,7 +398,7 @@ input[type = password], input[type = text] {
     }
 }
 
-@media screen and (min-height: 824px) and (max-width: 428px) {
+@media screen and (max-width: 428px) {
     .sticky {
         position: relative;
     }
