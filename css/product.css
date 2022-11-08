@@ -475,6 +475,15 @@ input[type="range"]::-moz-range-thumb{
 .footer_page ul li {
     color: #b4b3b3;
 }
+/* responsive */
+@media screen and (max-width: 428px) {
+    .header_page-main {
+        width: 100%;
+    }
+    .body_page-menu ul {
+        width: 100%;
+    }
+}
 
 
 

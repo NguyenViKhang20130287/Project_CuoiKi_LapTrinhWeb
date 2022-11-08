@@ -30,8 +30,8 @@ html a:hover {
     width: 80%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
-
 .body_page-menu ul li {
     margin-right: 10px;
 }
@@ -315,12 +315,6 @@ table{
     align-self: center;
     overflow: auto;
 }
-@media only screen and (max-width: 768px) {
-    .related_products .box{
-       padding: 20px 0;
-        overflow: auto;
-    }
-}
 .footer_area{
     background-color: #151616;
 }
@@ -336,4 +330,17 @@ table{
 }
 .footer_page ul li {
     color: #b4b3b3;
+}
+/* responsive */
+@media screen and (max-width: 428px) {
+    .header_page-main {
+        width: 100%;
+    }
+    .body_page-menu ul {
+        width: 100%;
+    }
+    .related_products .box{
+        padding: 20px 0;
+        overflow: auto;
+    }
 }

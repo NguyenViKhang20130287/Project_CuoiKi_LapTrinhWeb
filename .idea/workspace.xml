@@ -8,8 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/productdetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/productdetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productdetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/productdetails.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
       <workItem from="1667648860414" duration="956000" />
       <workItem from="1667831221051" duration="1762000" />
       <workItem from="1667833013651" duration="5624000" />
-      <workItem from="1667888163248" duration="16005000" />
+      <workItem from="1667888163248" duration="18945000" />
     </task>
     <servers />
   </component>
