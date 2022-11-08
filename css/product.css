@@ -105,6 +105,15 @@ html a:hover {
 .sidebar_widget-content ul li a i{
     font-size: 14px;
 }
+.sidebar_widget-content ul ul li a{
+    margin-left: 20px;
+}
+.sidebar_widget-content ul ul{
+    display: none;
+}
+.sidebar_widget-content ul .dropdown:hover ul{
+    display: block;
+}
 .slider_range {
     position: relative;
     margin-bottom: 25px;
@@ -114,8 +123,8 @@ html a:hover {
     margin-right: 13px;
 }
 .sidebar_widget-content .color_pick ul li button {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     border: solid 1px #eee;
 }

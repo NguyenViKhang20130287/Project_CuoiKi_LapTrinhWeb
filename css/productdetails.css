@@ -40,7 +40,7 @@ html a:hover {
     margin-right: 10px;
 }
 
-.body_page-menu ul li:first-child:hover a {
+.body_page-menu ul li:first-child:hover a, .body_page-menu ul .second:hover a{
     color: #bc8247;
 }
 
@@ -292,12 +292,15 @@ table{
 .related_products{
     margin-top: 40px;
 }
-.slide_content{
+.related_products .slide_content{
     width: 200px;
+    height: 330px;
     border: 1px solid #a3a3a3;
     border-radius: 10px;
     padding: 15px;
-    margin-right: 15px;
+}
+.slide_content .product_info{
+    margin-top: 10px;
 }
 .slide_content .product_info h3{
     font-size: 18px;
@@ -307,6 +310,16 @@ table{
 }
 .slide_content .product_info .product_price{
     font-size: 18px;
+}
+.related_products .box{
+    align-self: center;
+    overflow: auto;
+}
+@media only screen and (max-width: 768px) {
+    .related_products .box{
+       padding: 20px 0;
+        overflow: auto;
+    }
 }
 .footer_area{
     background-color: #151616;
