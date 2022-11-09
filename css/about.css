@@ -74,8 +74,7 @@
 }
 
 .body_page-main .left_container button {
-    background: transparent;
-    height: 40px;
+    background: none;
     font-size: 13px;
     font-weight: 500;
     line-height: 18px;
@@ -85,12 +84,21 @@
     cursor: pointer;
     transition: all 0.3s ease 0s;
     border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #bc8247;
+}
+
+.body_page-main .left_container button a {
+    color: #bc8247;
 }
 
 .body_page-main .left_container button:hover {
-    background: #ff6a28;
+    background: #bc8247;
+    transform: scale(0.9);
+}
+
+.body_page-main .left_container button:hover a {
     color: #fff;
-    border-color: #ff6a28;
 }
 
 /*right_container*/
@@ -118,9 +126,7 @@
     justify-content: center;
 }
 
-.body_page-main .counter_container .counter .counter_item .counter_info {
-
-}
+.body_page-main .counter_container .counter .counter_item .counter_info {}
 
 .body_page-main .counter_container .counter .counter_item .counter_img {
     margin-right: 15px;
@@ -159,7 +165,8 @@
         width: 95%;
     }
 
-    .body_page-main .login-container, .register-container {
+    .body_page-main .login-container,
+    .register-container {
         padding: 50px 30px;
     }
 
@@ -177,6 +184,24 @@
         margin: 5% auto;
         width: 95%;
     }
+
+    .body_page-main .welcome_container {
+        display: block;
+    }
+
+    .body_page-main .counter_container .counter {
+        display: block;
+        padding: 10px;
+    }
+
+    .body_page-main .counter_container .counter .counter_item {
+        /* padding: 25px 0; */
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+
 }
 
 @media screen and (min-height: 824px) and (max-width: 428px) {

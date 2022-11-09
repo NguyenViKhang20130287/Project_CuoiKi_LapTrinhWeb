@@ -48,6 +48,18 @@ body {
     width: 100%;
 }
 
+.banner {
+    width: 100%;
+    height: 530px;
+    background-image: url("../img/product_page/product_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -74,10 +86,14 @@ body {
     width: 60%;
 }
 
+/* Menu */
 .header_page-category-main-menu {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
+}
+
+.header_page-category-main-menu ul {
+    /* border: 1px solid #000; */
 }
 
 .header_page-category-main-menu li {
@@ -87,21 +103,27 @@ body {
     font-weight: bold;
 }
 
-.header_page-category-main-menu > li:hover {
+.header_page-category-main-menu>li:hover {
     color: #c0392b;
 }
 
-.header_page-category-main-menu li a {
+
+.header_page-category-main-menu li>a {
     transition: all 0.5s;
+    color: #000;
     padding: 30px;
 }
 
-.header_page-category-main-menu li:hover a {
+.header_page-category-main-menu li:hover>a {
     color: #c0392b;
 }
 
+.header_page-category-main-menu li i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
 .header_page-category-main-menu li:hover .header_page-category-sub-menu {
-    /*display: block;*/
     color: #000;
     visibility: visible;
     opacity: 1;
@@ -111,22 +133,12 @@ body {
     font-weight: normal;
 }
 
-.header_page-category-main-menu a {
-    color: #000;
-}
-
-.header_page-category-main-menu li i {
-    margin-left: 5px;
-    font-size: 12px;
-}
-
 .header_page-category-sub-menu {
     position: absolute;
     left: 30px;
     top: 35px;
     background: #fff;
     box-shadow: 0px 1px 6px 0px #dadada;
-    /*display: none;*/
     z-index: 2;
     visibility: hidden;
     opacity: 0;
@@ -134,18 +146,25 @@ body {
 }
 
 .header_page-category-sub-menu li {
-    padding: 15px 10px;
-    width: 180px;
+    padding: 15px 0;
+    width: 200px;
     font-size: 14px;
     border-bottom: 1px solid #bc8247;
     transition: all 0.3s;
+    font-weight: normal;
+}
+
+.header_page-category-sub-menu li a {
+    transition: all 0.3s;
+
+    color: #000;
 }
 
 .header_page-category-sub-menu li:hover {
     transform: scale(0.9);
-    font-weight: bold;
-    color: #bc8247;
 }
+
+/*  */
 
 .header_page-btns {
     width: 30%;
@@ -334,6 +353,14 @@ body {
         width: 100%;
     }
 
+    .banner{
+        height: 200px;
+    }
+
+    .banner h1{
+        font-size: 20px;
+    }
+
     .non-reponsive {
         display: none;
     }
@@ -421,9 +448,6 @@ body {
     }
 
     /*  */
-    .body_page {
-        /* position: relative; */
-    }
 
     .category_header-responsive {
         display: block;

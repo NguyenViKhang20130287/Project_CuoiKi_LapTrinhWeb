@@ -56,18 +56,19 @@
     position: absolute;
     top: 40%;
     left: 40%;
-    padding: 10px 15px;
-    background: #e32124;
-    border: 2px double #fff;
-    border-radius: 6px;
     transform: scale(0);
     transition: all 0.5s;
     cursor: pointer;
+    border:none;
 }
 
 .body_page-popular-product button a {
     font-weight: bold;
     color: #fff;
+    padding: 10px 15px;
+    background: #e32124;
+    border: 2px double #fff;
+    border-radius: 6px;
 }
 
 .body_page-popular-product-card {
@@ -182,12 +183,12 @@
     font-weight: bold;
     border-radius: 6px;
     cursor: pointer;
-    transition: all.3s;
+    transition: all .3s;
 }
 
-.body_page-trending-product-list-card .card-btn button a{
+.body_page-trending-product-list-card .card-btn button a {
     color: #bc8247;
-    transition: all.3s;
+    transition: all .3s;
 }
 
 .body_page-trending-product-list-card .card-btn button:hover {
@@ -196,7 +197,7 @@
     color: #fff;
 }
 
-.body_page-trending-product-list-card .card-btn button:hover a{
+.body_page-trending-product-list-card .card-btn button:hover a {
     color: #fff;
 }
 
@@ -291,7 +292,7 @@
 
 /*  */
 /* responsive */
-@media screen and (max-width:428px) {
+@media screen and (max-width: 428px) {
     .body_page {
         width: 100%;
     }
@@ -315,10 +316,10 @@
         height: 200px;
         margin-bottom: 20px;
     }
-    
+
     .body_page-trending-product-list-card {
         width: 100%;
     }
-    
-    
+
+
 }

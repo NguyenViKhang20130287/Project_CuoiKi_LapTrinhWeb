@@ -36,7 +36,8 @@
     font-size: 14px;
 }
 
-input, button {
+input,
+button {
     outline: 0;
     border-radius: 5px;
 }
@@ -71,8 +72,8 @@ input, button {
     margin-bottom: 60px;
 }
 
-.body_page .login-container form input[type = email],
-input[type = password] {
+.body_page .login-container form input[type=email],
+input[type=password] {
     padding: 0 20px;
     width: 100%;
     height: 60px;
@@ -83,7 +84,7 @@ input[type = password] {
     line-height: inherit;
 }
 
-.body_page .login-container form input[type = checkbox] {
+.body_page .login-container form input[type=checkbox] {
     height: 14px;
     width: 14px;
 }
@@ -206,8 +207,9 @@ input[type = password] {
     margin-bottom: 60px;
 }
 
-.body_page .register-container form input[type = email],
-input[type = password], input[type = text] {
+.body_page .register-container form input[type=email],
+input[type=password],
+input[type=text] {
     padding: 0 20px;
     width: 100%;
     height: 60px;
@@ -218,7 +220,7 @@ input[type = password], input[type = text] {
     line-height: inherit;
 }
 
-.body_page .register-container form input[type = checkbox] {
+.body_page .register-container form input[type=checkbox] {
     height: 14px;
     width: 14px;
 }
@@ -362,6 +364,7 @@ input[type = password], input[type = text] {
 .close a {
     text-decoration: none;
     transition: .3s;
+    color: #000;
 }
 
 .close a:hover {
@@ -378,7 +381,8 @@ input[type = password], input[type = text] {
         width: 95%;
     }
 
-    .body_page-main .login-container, .register-container {
+    .body_page-main .login-container,
+    .register-container {
         padding: 50px 30px;
     }
 
