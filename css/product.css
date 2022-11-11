@@ -14,12 +14,8 @@ html a:hover {
     margin-bottom: 0;
 }
 .sticky {
-    position: fixed;
-    top: 0;
     width: 100%;
     background: #fff;
-    box-shadow: 2px 4px 15px 0px #dadada;
-    z-index: 2;
 }
 /*.banner{*/
 /*    width: 100%;*/
@@ -200,8 +196,10 @@ html a:hover {
     color: #a3a3a3;
 }
 .body_page-trending-product-list-card {
-    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px;
     text-align: center;
+    padding-bottom: 10px;
     margin-bottom: 30px;
 }
 
@@ -211,6 +209,7 @@ html a:hover {
 }
 .body_page-trending-product-list-card .card-image img{
     height: 200px;
+    border-radius: 10px 10px 0 0;
 }
 
 .body_page-trending-product-list-card .card-image:hover {
@@ -244,6 +243,13 @@ html a:hover {
     border-radius: 6px;
     cursor: pointer;
     transition: all.3s;
+}
+.body_page-trending-product-list-card .card-btn button a {
+    color: #bc8247;
+    transition: all .3s;
+}
+.body_page-trending-product-list-card .card-btn button:hover a {
+    color: #fff;
 }
 
 .body_page-trending-product-list-card .card-btn button:hover {
@@ -462,15 +468,12 @@ input[type="range"]::-moz-range-thumb{
 .footer_area{
     background-color: #151616;
 }
-.footer_page{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 100%;
-}
 .footer_page h3{
-    font-size: 17px;
-    font-weight: bold;
+    font-weight: 600;
     color: #fff;
+}
+.footer_page ul{
+    margin-bottom: 0 !important;
 }
 .footer_page ul li {
     color: #b4b3b3;

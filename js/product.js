@@ -39,3 +39,20 @@ rangeInput.forEach(input =>{
         }
     });
 });
+//
+$(document).ready(function (){
+    $('.tab-content-item').hide();
+    $('.tab-content-item:first-child').fadeIn();
+    $('.pagination .page-item').click(function (){
+        //active nav tabs
+        $('.pagination .page-item').removeClass('active');
+        $(this).addClass('active');
+        //show tab-content item
+        let id_tab_content = $(this).children('a').attr('href');
+        //alert
+        $('.tab-content-item').hide();
+        $(id_tab_content).fadeIn();
+        return false;
+
+    });
+});

@@ -2,28 +2,21 @@ html a:hover {
     text-decoration: none !important;
 }
 
-.header_page {
-    background-color: #ecf0f1;
+.header_page{
+    background-color: #E4E4E4;
     width: 100%;
 }
-
-.header_page-main {
+.header_page-main{
     width: 80%;
     margin: 0 auto;
-    background-color: #ecf0f1;
+    background-color: #E4E4E4;
 }
-
-.header_page-category-main-menu {
+.header_page-category-main-menu{
     margin-bottom: 0;
 }
-
 .sticky {
-    position: fixed;
-    top: 0;
     width: 100%;
     background: #fff;
-    box-shadow: 2px 4px 15px 0px #dadada;
-    z-index: 2;
 }
 
 .body_page-menu {
@@ -384,18 +377,13 @@ table {
     background-color: #151616;
 }
 
-.footer_page {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 100%;
-}
-
 .footer_page h3 {
-    font-size: 17px;
-    font-weight: bold;
+    font-weight: 600;
     color: #fff;
 }
-
+.footer_page ul{
+    margin-bottom: 0 !important;
+}
 .footer_page ul li {
     color: #b4b3b3;
 }
