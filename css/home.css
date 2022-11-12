@@ -44,6 +44,29 @@
     margin-right: 10px;
 }
 
+.main_page {
+    background: #ecf0f1;
+}
+
+.footer_page {
+    background: #151616;
+}
+
+.footer_page h3 {
+    color: #fff;
+}
+
+.body_page_container {
+    width: 100%;
+    background: #fff;
+}
+
+.footer_container {
+    width: 100%;
+    background: #151616;
+    height: 100%;
+}
+
 /*  */
 .body_page-popular-product {
     display: flex;
@@ -59,7 +82,7 @@
     transform: scale(0);
     transition: all 0.5s;
     cursor: pointer;
-    border:none;
+    border: none;
 }
 
 .body_page-popular-product button a {
@@ -149,7 +172,8 @@
     height: 50%;
     transition: all .3s;
 }
-.body_page-trending-product-list-card .card-image img{
+
+.body_page-trending-product-list-card .card-image img {
     border-radius: 10px 10px 0 0;
 }
 

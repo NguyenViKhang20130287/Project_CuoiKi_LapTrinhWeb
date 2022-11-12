@@ -12,139 +12,140 @@
 </head>
 
 <body>
-    <div class="main_page">
+<div class="main_page">
 
-        <!-- Header page -->
-        <div class="header_page">
-            <div class="header_page-main">
+    <!-- Header page -->
+    <div class="header_page">
+        <div class="header_page-main">
 
-                <div class="header_page-logo">
-                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="header_page-logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+
+            <div class="header_page-category">
+
+                <ul class="header_page-category-main-menu">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="product.html"> Sản phẩm
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                        <ul class="header_page-category-sub-menu">
+                            <li><a href="">Nhẫn</a></li>
+                            <li><a href="">Hoa tai</a></li>
+                            <li><a href="">Dây chuyền</a></li>
+                            <li><a href="">Vòng tay</a></li>
+                            <li><a href="">Mặt dây chuyền</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Trang<i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="header_page-category-sub-menu">
+                            <li><a href="login.html" style="font-weight: normal">Đăng nhập</a></li>
+                            <li><a href="cart.html" style="font-weight: normal">Giỏ hàng</a></li>
+                            <li><a href="about.html" style="font-weight: normal">Giới thiệu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+
+            </div>
+
+            <!--  -->
+            <div class="header_page-btns non-reponsive">
+                <button type="button" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i>Tìm
+                    kiếm
+                </button>
+                <button><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i>Giỏ hàng(100)</a></button>
+                <button><a href="login.html"><i class="fa-solid fa-user"></i>Tài khoản</a></button>
+            </div>
+            <!--  -->
+            <div class="header_page-btns responsive">
+                <div class="nav">
+                    <button class="navbar"><i class="fa-solid fa-bars"></i></button>
                 </div>
 
-                <div class="header_page-category">
+                <div class="right_btn">
+                    <button type="button" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></button>
+                    <button><a href="login.html"><i class="fa-solid fa-user"></i></a></button>
+                </div>
 
-                    <ul class="header_page-category-main-menu">
+                <div class="category_header-responsive">
+                    <ul class="main-menu">
                         <li><a href="index.html">Trang chủ</a></li>
-                        <li><a href="product.html"> Sản phẩm
+                        <li class="main-menu-list">
+                            <div class="main-menu-title">
+                                <a href="product.html">
+                                    <h1>Sản phẩm</h1>
+                                </a>
                                 <i class="fa-solid fa-chevron-down"></i>
-                            </a>
-                            <ul class="header_page-category-sub-menu">
-                                <li><a href="">Nhẫn</a></li>
-                                <li><a href="">Hoa tai</a></li>
-                                <li><a href="">Dây chuyền</a></li>
-                                <li><a href="">Vòng tay</a></li>
-                                <li><a href="">Mặt dây chuyền</a></li>
-                            </ul>
+                            </div>
+                            <!-- <a href="product.html"> Sản phẩm
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a> -->
+                            <div class="main-menu-content">
+                                <ul>
+                                    <li><a href="" style="font-weight: normal">Nhẫn</a></li>
+                                    <li><a href="" style="font-weight: normal">Hoa tai</a></li>
+                                    <li><a href="" style="font-weight: normal">Dây chuyên</a></li>
+                                    <li><a href="" style="font-weight: normal">Vòng tay</a></li>
+                                    <li><a href="" style="font-weight: normal">Mặt dây chuyền</a></li>
+                                </ul>
+                            </div>
                         </li>
-                        <li><a href="">Trang<i class="fa-solid fa-chevron-down"></i></a>
-                            <ul class="header_page-category-sub-menu">
-                                <li><a href="login.html" style="font-weight: normal">Đăng nhập</a></li>
-                                <li><a href="cart.html" style="font-weight: normal">Giỏ hàng</a></li>
-                                <li><a href="about.html" style="font-weight: normal">Giới thiệu</a></li>
-                            </ul>
+                        <li class="main-menu-list">
+                            <div class="main-menu-title">
+                                <h1>Trang</h1>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="main-menu-content">
+                                <ul>
+                                    <!-- <li><a href=""></a>Đăng ký</li> -->
+                                    <li><a href="login.html" style="font-weight: normal">Đăng nhập</a></li>
+                                    <li><a href="cart.html" style="font-weight: normal">Giỏ hàng</a></li>
+                                    <li><a href="about.html" style="font-weight: normal">Giới thiệu</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li><a href="contact.html">Liên hệ</a></li>
                     </ul>
-
+                    <button class="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+                    <div class="hidden-menu"></div>
                 </div>
 
-                <!--  -->
-                <div class="header_page-btns non-reponsive">
-                    <button type="button" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i>Tìm
-                        kiếm
-                    </button>
-                    <button><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i>Giỏ hàng(100)</a></button>
-                    <button><a href="login.html"><i class="fa-solid fa-user"></i>Tài khoản</a></button>
-                </div>
-                <!--  -->
-                <div class="header_page-btns responsive">
-                    <div class="nav">
-                        <button class="navbar"><i class="fa-solid fa-bars"></i></button>
-                    </div>
-
-                    <div class="right_btn">
-                        <button type="button" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        <button><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></button>
-                        <button><a href="login.html"><i class="fa-solid fa-user"></i></a></button>
-                    </div>
-
-                    <div class="category_header-responsive">
-                        <ul class="main-menu">
-                            <li><a href="index.html">Trang chủ</a></li>
-                            <li class="main-menu-list">
-                                <div class="main-menu-title">
-                                    <a href="product.html">
-                                        <h1>Sản phẩm</h1>
-                                    </a>
-                                    <i class="fa-solid fa-chevron-down"></i>
-                                </div>
-                                <!-- <a href="product.html"> Sản phẩm
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </a> -->
-                                <div class="main-menu-content">
-                                    <ul>
-                                        <li><a href="" style="font-weight: normal">Nhẫn</a></li>
-                                        <li><a href="" style="font-weight: normal">Hoa tai</a></li>
-                                        <li><a href="" style="font-weight: normal">Dây chuyên</a></li>
-                                        <li><a href="" style="font-weight: normal">Vòng tay</a></li>
-                                        <li><a href="" style="font-weight: normal">Mặt dây chuyền</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="main-menu-list">
-                                <div class="main-menu-title">
-                                    <h1>Trang</h1>
-                                    <i class="fa-solid fa-chevron-down"></i>
-                                </div>
-                                <div class="main-menu-content">
-                                    <ul>
-                                        <!-- <li><a href=""></a>Đăng ký</li> -->
-                                        <li><a href="login.html" style="font-weight: normal">Đăng nhập</a></li>
-                                        <li><a href="cart.html" style="font-weight: normal">Giỏ hàng</a></li>
-                                        <li><a href="about.html" style="font-weight: normal">Giới thiệu</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="contact.html">Liên hệ</a></li>
-                        </ul>
-                        <button class="closeBtn"><i class="fa-solid fa-xmark"></i></button>
-                        <div class="hidden-menu"></div>
-                    </div>
-
-                </div>
             </div>
-
         </div>
 
-        <div class="header_page-modal-search">
+    </div>
 
-            <div class="main-modal">
-                <div class="main-modal-close-btn">
-                    <button type="button"><i class="fa-solid fa-xmark"></i></button>
-                </div>
-                <div class="main-modal-title">
-                    <h1>Tìm kiếm</h1>
-                </div>
-                <div class="main-modal-category">
-                    <ul>
-                        <li>Tất cả</li>
-                        <li>Vòng tay</li>
-                        <li>Mặt dây</li>
-                        <li>Trang sức theo mệnh</li>
-                        <li>Vật phẩm</li>
-                    </ul>
-                </div>
-                <div class="main-modal-search">
-                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+    <div class="header_page-modal-search">
+
+        <div class="main-modal">
+            <div class="main-modal-close-btn">
+                <button type="button"><i class="fa-solid fa-xmark"></i></button>
             </div>
-            <div class="hide-modal-search"></div>
-
+            <div class="main-modal-title">
+                <h1>Tìm kiếm</h1>
+            </div>
+            <div class="main-modal-category">
+                <ul>
+                    <li>Tất cả</li>
+                    <li>Vòng tay</li>
+                    <li>Mặt dây</li>
+                    <li>Trang sức theo mệnh</li>
+                    <li>Vật phẩm</li>
+                </ul>
+            </div>
+            <div class="main-modal-search">
+                <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
         </div>
+        <div class="hide-modal-search"></div>
 
-        <!-- body page -->
+    </div>
+
+    <!-- body page -->
+    <div class="body_page_container">
         <div class="body_page">
 
             <div class="body_page-slides">
@@ -191,7 +192,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/bracelets/bracelet_ruby-2.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/bracelets/bracelet_ruby-2.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Vòng đeo tay bằng Ruby và Kim cương 18K</p>
@@ -219,7 +221,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/necklaces/necklace_sapphire-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img
+                                    src="img/main_products/necklaces/necklace_sapphire-1.jpeg" alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Vòng cổ Sapphire và Kim cương 18K</p>
@@ -233,7 +236,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/pendants/pendant_aquamarine-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img
+                                    src="img/main_products/pendants/pendant_aquamarine-1.jpeg" alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Mặt dây chuyền Aquamarine và Kim cương 14K</p>
@@ -247,7 +251,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/earrings/earring_garnet-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/earrings/earring_garnet-1.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Hoa tai đính đá Anthill Garnet Châu Phi 18K</p>
@@ -261,7 +266,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/earrings/earring_amethyst-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/earrings/earring_amethyst-1.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Bông tai Thạch anh tím và kim cương Siberia Vàng trắng</p>
@@ -275,7 +281,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/bracelets/bracelet_quartz-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/bracelets/bracelet_quartz-1.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Vòng Tay Thạch Anh Ưu Linh Trắng 8mm Mix Hoa Mẫu Đơn</p>
@@ -289,7 +296,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/rings/ring_tanzanite-2.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/rings/ring_tanzanite-2.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Nhẫn Tanzanite và Kim cương Vàng trắng 14K</p>
@@ -303,7 +311,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/pendants/pendant_ruby-2.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/pendants/pendant_ruby-2.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Mặt dây chuyền trái tim Ruby và Vàng 14K</p>
@@ -317,7 +326,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/rings/ring_pearl-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/rings/ring_pearl-1.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Nhẫn Ngọc trai nước ngọt và Kim cương 14k</p>
@@ -331,7 +341,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/bracelets/bracelet_quartz-2.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/bracelets/bracelet_quartz-2.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Vòng Tay Thạch Anh Ưu Linh Trắng 8mm Mix Bạc</p>
@@ -345,7 +356,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/earrings/earring_ruby-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/earrings/earring_ruby-1.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Hoa tai Ruby và Kim cương Vàng 18K</p>
@@ -359,7 +371,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/bracelets/bracelet_amethyst-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img
+                                    src="img/main_products/bracelets/bracelet_amethyst-1.jpeg" alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Vòng tay thạch anh tím Siberia 14K</p>
@@ -373,7 +386,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/earrings/earring_aquamarine-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img
+                                    src="img/main_products/earrings/earring_aquamarine-1.jpeg" alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Hoa tai Aquamarine và Kim cương 14K</p>
@@ -387,7 +401,8 @@
 
                     <div class="body_page-trending-product-list-card">
                         <div class="card-image">
-                            <a href="productdetails.html"><img src="img/main_products/necklaces/necklace_emerald-1.jpeg" alt=""></a>
+                            <a href="productdetails.html"><img src="img/main_products/necklaces/necklace_emerald-1.jpeg"
+                                                               alt=""></a>
                         </div>
                         <div class="card-title-price">
                             <p>Vòng cổ Ngọc lục bảo và Kim cương 14K</p>
@@ -517,8 +532,11 @@
             </div>
 
         </div>
+    </div>
 
-        <!-- footer page -->
+
+    <!-- footer page -->
+    <div class="footer_container">
         <div class="footer_page">
 
             <div class="footer_page-inforCompany">
@@ -569,8 +587,10 @@
             </div>
 
         </div>
-
     </div>
+
+
+</div>
 </body>
 <script src="js/main.js"></script>
 <script src="js/home.js"></script>

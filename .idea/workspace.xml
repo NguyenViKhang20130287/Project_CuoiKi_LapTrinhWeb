@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c7a04f2-5ef4-4d03-b18a-8386129fcdbf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_9_2022_9_42_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_9_2022_9_42_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2022_7_09_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2022_7_09_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="2c7a04f2-5ef4-4d03-b18a-8386129fcdbf" name="Changes" comment="gan link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/form-add-bi-cam.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/form-add-bi-cam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/form-add-don-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/form-add-don-hang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/form-add-nhan-vien.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/form-add-nhan-vien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/form-add-san-pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/form-add-san-pham.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/quan-ly-bao-cao.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/quan-ly-bao-cao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/table-data-banned.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/table-data-banned.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/table-data-money.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/table-data-money.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/table-data-oder.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/table-data-oder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/table-data-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/table-data-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/doc/table-data-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/table-data-table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +97,7 @@
       <workItem from="1668065966248" duration="6986000" />
       <workItem from="1668142032415" duration="29574000" />
       <workItem from="1668232216147" duration="17854000" />
+      <workItem from="1668259615584" duration="8199000" />
     </task>
     <servers />
   </component>
