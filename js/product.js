@@ -1,3 +1,4 @@
+// Lọc theo giá
 const rangeInput = document.querySelectorAll(".range-input input"),
     priceInput = document.querySelectorAll(".price-input input"),
     range = document.querySelector(".slider .progress");
@@ -39,7 +40,7 @@ rangeInput.forEach(input =>{
         }
     });
 });
-//
+// Hiển thị danh sách sản phẩm từng trang
 $(document).ready(function (){
     $('.tab-content-item').hide();
     $('.tab-content-item:first-child').fadeIn();

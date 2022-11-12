@@ -138,20 +138,26 @@ html a:hover {
     margin-bottom: 18px;
 }
 
-.quantity_wrapper {
+.quantity_wrapper, .size_wrapper {
     display: flex;
     align-items: center;
     font-size: 18px;
+    margin: 18px 0;
 }
 
 .wrapper {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 130px;
     border: 2px solid #f5f5f5;
     border-radius: 5px;
     padding: 5px 0;
+}
+.wrapper input{
+    width: 50px;
+    text-align: center;
+    border: none;
+    outline: none;
 }
 
 .wrapper span {
@@ -161,7 +167,7 @@ html a:hover {
     font-weight: 400;
 }
 
-.wrapper span.number {
+.wrapper .number {
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -170,7 +176,57 @@ html a:hover {
 .wrapper span.minus {
     cursor: pointer;
 }
+.size_wrapper .select_size{
+    padding: 8px 5px;
+    border-radius: 10px;
+}
+#myBtn{
+    border: none;
+    background: none;
+}
+#myBtn span{
+    font-size: 18px;
+    color: #05a;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto !important; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80% !important;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 .btn-groups {
     margin-top: 25px;
 }
@@ -343,29 +399,74 @@ table {
 .related_products {
     margin-top: 40px;
 }
-
-.related_products .slide_content {
-    width: 200px;
-    height: 330px;
-    border: 1px solid #a3a3a3;
+.body_page-trending-product-list-card {
     border-radius: 10px;
-    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 20px 5px;
+    width: 240px;
+    height: 350px;
+}
+.card-title-price a{
+    color: #212529;
+}
+.card-title-price a:hover{
+    color: #bc8247;
+}
+.body_page-trending-product-list-card .card-image {
+    object-fit: cover;
+    transition: all .3s;
+}
+.body_page-trending-product-list-card .card-image img{
+    height: 200px;
+    border-radius: 10px 10px 0 0;
 }
 
-.slide_content .product_info {
-    margin-top: 10px;
+.body_page-trending-product-list-card .card-image:hover {
+    transform: scale(0.8);
 }
 
-.slide_content .product_info h3 {
-    font-size: 18px;
+.body_page-trending-product-list-card .card-title-price {
+    padding: 10px;
+    line-height: 1.5;
 }
 
-.slide_content .product_info h3 a {
-    color: #000;
+.body_page-trending-product-list-card .card-title-price p {
+    font-weight: 300;
+    margin-bottom: 0;
 }
 
-.slide_content .product_info .product_price {
-    font-size: 18px;
+.body_page-trending-product-list-card .card-title-price span {
+    color: #e32124;
+    font-weight: bold;
+}
+.body_page-trending-product-list-card .card-btn {
+    padding: 0 0 10px 0;
+}
+
+.body_page-trending-product-list-card .card-btn button {
+    padding: 10px 15px;
+    border: 1px solid #bc8247;
+    background: none;
+    color: #bc8247;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all.3s;
+}
+.body_page-trending-product-list-card .card-btn button a {
+    color: #bc8247;
+    transition: all .3s;
+}
+.body_page-trending-product-list-card .card-btn button:hover a {
+    color: #fff;
+}
+
+.body_page-trending-product-list-card .card-btn button:hover {
+    transform: scale(0.9);
+    background: #bc8247;
+    color: #fff;
 }
 
 .related_products .box {

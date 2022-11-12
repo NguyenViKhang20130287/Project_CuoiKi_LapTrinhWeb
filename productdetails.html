@@ -199,12 +199,37 @@
                             <div class="quantity_wrapper">
                                 <div style="margin-right: 15px; text-align: center">Số lượng</div>
                                 <div class="wrapper">
-                                    <span class="minus">-</span>
-                                    <span class="number" contenteditable="true">1</span>
-                                    <span class="plus">+</span>
+                                    <span class="button minus">-</span>
+                                    <input type="text" value="1" class="number">
+                                    <span class="button plus">+</span>
                                 </div>
                             </div>
+                            <div class="size_wrapper">
+                                <div style="margin-right: 15px">Kích cỡ</div>
+                                <select class="select_size">
+                                    <option>-- Vui lòng chọn --</option>
+                                    <option>5 - 15.6mm</option>
+                                    <option>5.5 - 16.0mm</option>
+                                    <option>6 - 16.45mm</option>
+                                    <option>6.5 - 16.9mm</option>
+                                    <option>7 - 17.3mm</option>
+                                    <option>7.5 - 17.7mm</option>
+                                    <option>8 - 18.2mm</option>
+                                    <option>8.5 - 18.6mm</option>
+                                    <option>9 - 19.0mm</option>
+                                    <option>9.5 - 19.4mm</option>
+                                    <option>10 - 19.8mm</option>
+                                    <option>10.5 - 20.2mm</option>
+                                    <option>11 - 20.6mm</option>
+                                    <option>11.5 - 21.0mm</option>
+                                    <option>12 - 21.4mm</option>
+                                    <option>12.5 - 21.8mm</option>
+                                    <option>13.5 - 22.2mm</option>
+                                </select>
+                            </div>
                         </div>
+                        <!-- Trigger/Open The Modal -->
+                        <button id="myBtn"><span>Hướng dẫn chọn kích cỡ<i class="fa-solid fa-chevron-right"></i></span></button>
                         <div class="btn-groups">
                             <button type="button" class="add_cart_btn">
                                 <i class="fa-solid fa-cart-shopping"></i>
@@ -219,6 +244,7 @@
                 </div>
             </div>
         </div>
+
         <!--tab-->
         <div class="tabs_area">
             <div class="container">
@@ -363,154 +389,92 @@
             <div class="box container">
                 <ul id="autoWidth" class="cs-hidden">
                     <li class="item-a">
-                        <div class="slide_content">
-                            <div class="item_product">
-                                <div class="product_thumb">
-                                    <a class="image_thumb" href="">
-                                        <img src="img/main_products/necklaces/necklace_sapphire-1.jpeg" alt="">
-                                    </a>
+                        <div class="body_page-trending-product-list-card">
+                                <div class="card-image">
+                                    <a href="productdetails.html"><img src="img/main_products/bracelets/bracelet_ruby-2.jpeg" alt=""></a>
                                 </div>
-                                <div class="product_info">
-                                    <h3 class="product_name">
-                                        <a href="">Vòng cổ Sapphire và Kim cương 18K</a>
-                                    </h3>
-                                    <div class="product_price">
-                                        <span class="price">1.088.000 đ</span>
-                                    </div>
+                                <div class="card-title-price">
+                                    <a href=""><p>Vòng đeo tay bằng Ruby và Kim cương 18K</p></a>
+                                    <span>3.169.000 đ</span>
+                                </div>
+                                <div class="card-btn">
+                                    <button><a href="productdetails.html">Chi tiết</a></button>
+                                    <button>Thêm vào giỏ</button>
                                 </div>
                             </div>
-                        </div>
                     </li>
                     <li class="item-b">
-                        <div class="slide_content">
-                            <div class="item_product">
-                                <div class="product_thumb">
-                                    <a class="image_thumb" href="">
-                                        <img src="img/main_products/bracelets/bracelet_ruby-2.jpeg" alt="">
-                                    </a>
-                                </div>
-                                <div class="product_info">
-                                    <h3 class="product_name">
-                                        <a href="">Vòng đeo tay bằng Ruby và Kim cương 18K</a>
-                                    </h3>
-                                    <div class="product_price">
-                                        <span class="price">3.169.000 đ</span>
-                                    </div>
-                                </div>
+                        <div class="body_page-trending-product-list-card">
+                            <div class="card-image">
+                                <a href="productdetails.html"><img src="img/main_products/earrings/earring_amethyst-1.jpeg" alt=""></a>
+                            </div>
+                            <div class="card-title-price">
+                                <a href="productdetails.html"><p>Bông tai Thạch anh tím và kim cương Siberia Vàng trắng</p></a>
+                                <span>2.970.000 đ</span>
+                            </div>
+                            <div class="card-btn">
+                                <button><a href="productdetails.html">Chi tiết</a></button>
+                                <button>Thêm vào giỏ</button>
                             </div>
                         </div>
                     </li>
                     <li class="item-c">
-                        <div class="slide_content">
-                            <div class="item_product">
-                                <div class="product_thumb">
-                                    <a class="image_thumb" href="">
-                                        <img src="img/main_products/earrings/earring_amethyst-1.jpeg" alt="">
-                                    </a>
-                                </div>
-                                <div class="product_info">
-                                    <h3 class="product_name">
-                                        <a href="">Bông tai Thạch anh tím và kim cương Siberia Vàng trắng</a>
-                                    </h3>
-                                    <div class="product_price">
-                                        <span class="price">2.970.000 đ</span>
-                                    </div>
-                                </div>
+                        <div class="body_page-trending-product-list-card">
+                            <div class="card-image">
+                                <a href="productdetails.html"><img src="img/main_products/bracelets/bracelet_quartz-1.jpeg" alt=""></a>
+                            </div>
+                            <div class="card-title-price">
+                                <a href="productdetails.html"><p>Vòng Tay Thạch Anh Ưu Linh Trắng 8mm Mix Hoa Mẫu Đơn</p></a>
+                                <span>1.784.000 đ</span>
+                            </div>
+                            <div class="card-btn">
+                                <button><a href="productdetails.html">Chi tiết</a></button>
+                                <button>Thêm vào giỏ</button>
                             </div>
                         </div>
                     </li>
                     <li class="item-d">
-                        <div class="slide_content">
-                            <div class="item_product">
-                                <div class="product_thumb">
-                                    <a class="image_thumb" href="">
-                                        <img src="img/main_products/bracelets/bracelet_quartz-1.jpeg" alt="">
-                                    </a>
-                                </div>
-                                <div class="product_info">
-                                    <h3 class="product_name">
-                                        <a href="">Vòng Tay Thạch Anh Ưu Linh Trắng 8mm Mix Hoa Mẫu Đơn</a>
-                                    </h3>
-                                    <div class="product_price">
-                                        <span class="price">1.784.000 đ</span>
-                                    </div>
-                                </div>
+                        <div class="body_page-trending-product-list-card">
+                            <div class="card-image">
+                                <a href="productdetails.html"><img src="img/main_products/rings/ring_tanzanite-2.jpeg" alt=""></a>
+                            </div>
+                            <div class="card-title-price">
+                                <a href="productdetails.html"><p>Nhẫn Tanzanite và Kim cương Vàng trắng 14K</p></a>
+                                <span>1.180.000 đ</span>
+                            </div>
+                            <div class="card-btn">
+                                <button><a href="productdetails.html">Chi tiết</a></button>
+                                <button>Thêm vào giỏ</button>
                             </div>
                         </div>
                     </li>
                     <li class="item-e">
-                        <div class="slide_content">
-                            <div class="item_product">
-                                <div class="product_thumb">
-                                    <a class="image_thumb" href="">
-                                        <img src="img/main_products/rings/ring_tanzanite-2.jpeg" alt="">
-                                    </a>
-                                </div>
-                                <div class="product_info">
-                                    <h3 class="product_name">
-                                        <a href="">Nhẫn Tanzanite và Kim cương Vàng trắng 14K</a>
-                                    </h3>
-                                    <div class="product_price">
-                                        <span class="price">1.180.000 đ</span>
-                                    </div>
-                                </div>
+                        <div class="body_page-trending-product-list-card">
+                            <div class="card-image">
+                                <a href="productdetails.html"><img src="img/main_products/pendants/pendant_ruby-2.jpeg" alt=""></a>
+                            </div>
+                            <div class="card-title-price">
+                                <a href="productdetails.html"><p>Mặt dây chuyền trái tim Ruby và Vàng 14K</p></a>
+                                <span>1.713.000 đ</span>
+                            </div>
+                            <div class="card-btn">
+                                <button><a href="productdetails.html">Chi tiết</a></button>
+                                <button>Thêm vào giỏ</button>
                             </div>
                         </div>
                     </li>
                     <li class="item-f">
-                        <div class="slide_content">
-                            <div class="item_product">
-                                <div class="product_thumb">
-                                    <a class="image_thumb" href="">
-                                        <img src="img/main_products/pendants/pendant_ruby-2.jpeg" alt="">
-                                    </a>
-                                </div>
-                                <div class="product_info">
-                                    <h3 class="product_name">
-                                        <a href="">Mặt dây chuyền trái tim Ruby và Vàng 14K</a>
-                                    </h3>
-                                    <div class="product_price">
-                                        <span class="price">1.713.000 đ</span>
-                                    </div>
-                                </div>
+                        <div class="body_page-trending-product-list-card">
+                            <div class="card-image">
+                                <a href="productdetails.html"><img src="img/main_products/rings/ring_pearl-1.jpeg" alt=""></a>
                             </div>
-                        </div>
-                    </li>
-                    <li class="item-g">
-                        <div class="slide_content">
-                            <div class="item_product">
-                                <div class="product_thumb">
-                                    <a class="image_thumb" href="">
-                                        <img src="img/main_products/rings/ring_pearl-1.jpeg" alt="">
-                                    </a>
-                                </div>
-                                <div class="product_info">
-                                    <h3 class="product_name">
-                                        <a href="">Nhẫn Ngọc trai nước ngọt và Kim cương 14k</a>
-                                    </h3>
-                                    <div class="product_price">
-                                        <span class="price">2.285.000 đ</span>
-                                    </div>
-                                </div>
+                            <div class="card-title-price">
+                                <a href="productdetails.html"><p>Nhẫn Ngọc trai nước ngọt và Kim cương 14k</p></a>
+                                <span>2.285.000 đ</span>
                             </div>
-                        </div>
-                    </li>
-                    <li class="item-h">
-                        <div class="slide_content">
-                            <div class="item_product">
-                                <div class="product_thumb">
-                                    <a class="image_thumb" href="">
-                                        <img src="img/main_products/bracelets/bracelet_quartz-2.jpeg" alt="">
-                                    </a>
-                                </div>
-                                <div class="product_info">
-                                    <h3 class="product_name">
-                                        <a href="">Vòng Tay Thạch Anh Ưu Linh Trắng 8mm Mix Bạc</a>
-                                    </h3>
-                                    <div class="product_price">
-                                        <span class="price">1.734.000 đ</span>
-                                    </div>
-                                </div>
+                            <div class="card-btn">
+                                <button><a href="productdetails.html">Chi tiết</a></button>
+                                <button>Thêm vào giỏ</button>
                             </div>
                         </div>
                     </li>
@@ -518,7 +482,22 @@
             </div>
         </div>
     </div>
-
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2><strong>Bảng size nhẫn</strong></h2>
+            <div style="margin: 15px 0"><img src="img/ring-size-chart.png" alt=""></div>
+            <h2><strong>Cách đơn giản nhất để đo size nhẫn</strong></h2>
+            <h3><strong>Đo bằng tờ giấy & thước</strong></h3>
+            <p>Bước 1:&nbsp;Chuẩn bị một cây thước, 1 cây kéo, 1 cây bút &amp; một tờ giấy</p>
+            <p>Bước 2:&nbsp;Cắt một mảnh giấy dài khoảng 10 cm và rộng 1 cm.</p>
+            <p>Bước 3:&nbsp;Sử dụng đoạn giấy vừa cắt để quấn sát quanh ngón tay muốn đo.</p>
+            <p>Bước 4:&nbsp;Đánh dấu điểm giao nhau.</p>
+            <p>Bước 5:&nbsp;Tháo ra dùng thước đo chiều dài của đoạn giấy từ điểm đầu cho đến phần đánh dấu. Lấy kết quả đo được chia cho 3,14. Sau đó đối chiếu với&nbsp;Bảng size nhẫn.</p>
+        </div>
+    </div>
     <!--footer page-->
     <section class="footer_area">
         <div class="footer_page">

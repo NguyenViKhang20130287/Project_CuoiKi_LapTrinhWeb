@@ -263,15 +263,6 @@ html a:hover {
     width: 100%;
     margin-bottom: 20px
 }
-
-.pagenav span {
-    display: inline-block;
-    float: left;
-    margin-right: 10px;
-    line-height: 30px;
-    font-weight: 700
-}
-
 .nav_pagi {
     display: inline-block;
     background: #fff;
@@ -326,12 +317,6 @@ html a:hover {
 .nav_pagi .pagination .page-link:hover {
     background-color: #bc8247;
     color: #fff
-}
-
-.nav_pagi .pagination .page-link svg {
-    width: 14px;
-    height: 14px;
-    margin-top: -3px
 }
 
 .nav_pagi .pagination .page-item.disabled .page-link {
