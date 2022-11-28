@@ -1,16 +1,19 @@
-.header_page{
+.header_page {
     background-color: #E4E4E4;
     width: 100%;
 }
-.header_page-main{
+
+.header_page-main {
     width: 80%;
     margin: 0 auto;
     background-color: #E4E4E4;
 }
+
 .sticky {
     width: 100%;
     background: #fff;
 }
+
 .body_page {
     width: 100%;
     overflow: auto;
@@ -331,6 +334,46 @@ input[type=text] {
     background: #bc8246;
     transition: all 0.4s;
     cursor: pointer;
+}
+
+/* google/facebook login */
+.other_login {
+    /* border: 1px solid #bc8246; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.other_login .login_google,
+.other_login .login_facebook {
+    width: 49%;
+}
+
+.other_login .login_google button,
+.other_login .login_facebook button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+
+.other_login .login_google button {
+    background: #c0392b;
+}
+
+.other_login .login_facebook button {
+    background: #3B5998;
+}
+
+.other_login .login_google button:hover,
+.other_login .login_facebook button:hover {
+    background: #fff;
+    color: #bc8246;
+    border: 1px solid #bc8246;
 }
 
 /*modal*/
