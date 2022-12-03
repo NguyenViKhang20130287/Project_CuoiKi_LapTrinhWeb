@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7a04f2-5ef4-4d03-b18a-8386129fcdbf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_9_2022_9_42_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_9_2022_9_42_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2022_7_09_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2022_7_09_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner/banner-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/banner/banner-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/doc/index-admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/doc/index-admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +98,7 @@
       <workItem from="1668259615584" duration="8718000" />
       <workItem from="1668304654718" duration="975000" />
       <workItem from="1669256331261" duration="58000" />
+      <workItem from="1669980707827" duration="961000" />
     </task>
     <servers />
   </component>
